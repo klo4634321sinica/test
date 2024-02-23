@@ -25,7 +25,7 @@ from mne.datasets import sample
 from mne_realtime import RtEpochs, MockRtClient
 
 print(__doc__)
-
+print("AAAAAAAAAAAAAAAA")
 # Fiff file to simulate the realtime client
 data_path = sample.data_path()
 raw_fname = data_path / 'MEG' / 'sample' / 'sample_audvis_filt-0-40_raw.fif'
